@@ -1,0 +1,34 @@
+﻿已經開始建置於 2017/10/31 下午 10:40:13。
+     1>節點 2 (build 目標) 上的專案 "D:\OS hw\test program\test\test\test.vcxproj"。
+     1>PrepareForBuild:
+         正在建立目錄 "D:\OS hw\test program\test\Debug\"。
+       InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\test.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt ..\..\testBGIm.cpp /clr:nostdlib 
+         testBGIm.cpp
+     1>..\..\testBGIm.cpp(14): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 請參閱 'kbhit' 的宣告
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\88888\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OS hw\test program\test\Debug\test.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\OS hw\test program\test\Debug\test.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\testBGIm.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>testBGIm.obj : error LNK2028: 無法解析的語彙基元 (0A00035A) "extern "C" int __cdecl initwindow(int,int,char const *,int,int,bool,bool)" (?initwindow@@$$J0YAHHHPBDHH_N1@Z) 在函式 "int __cdecl main(void)" (?main@@$$HYAHXZ) 中被參考
+     1>testBGIm.obj : error LNK2028: 無法解析的語彙基元 (0A000375) "extern "C" void __cdecl delay(int)" (?delay@@$$J0YAXH@Z) 在函式 "int __cdecl main(void)" (?main@@$$HYAHXZ) 中被參考
+     1>testBGIm.obj : error LNK2028: 無法解析的語彙基元 (0A0003B7) "extern "C" void __cdecl moveto(int,int)" (?moveto@@$$J0YAXHH@Z) 在函式 "int __cdecl main(void)" (?main@@$$HYAHXZ) 中被參考
+     1>testBGIm.obj : error LNK2028: 無法解析的語彙基元 (0A0003E3) "extern "C" void __cdecl lineto(int,int)" (?lineto@@$$J0YAXHH@Z) 在函式 "int __cdecl main(void)" (?main@@$$HYAHXZ) 中被參考
+     1>testBGIm.obj : error LNK2028: 無法解析的語彙基元 (0A0003E4) "extern "C" void __cdecl closegraph(int)" (?closegraph@@$$J0YAXH@Z) 在函式 "int __cdecl main(void)" (?main@@$$HYAHXZ) 中被參考
+     1>testBGIm.obj : error LNK2028: 無法解析的語彙基元 (0A00049D) "extern "C" void __cdecl circle(int,int,int)" (?circle@@$$J0YAXHHH@Z) 在函式 "int __cdecl main(void)" (?main@@$$HYAHXZ) 中被參考
+     1>testBGIm.obj : error LNK2019: 無法解析的外部符號 "extern "C" void __cdecl closegraph(int)" (?closegraph@@$$J0YAXH@Z) 在函式 "int __cdecl main(void)" (?main@@$$HYAHXZ) 中被參考
+     1>testBGIm.obj : error LNK2019: 無法解析的外部符號 "extern "C" void __cdecl delay(int)" (?delay@@$$J0YAXH@Z) 在函式 "int __cdecl main(void)" (?main@@$$HYAHXZ) 中被參考
+     1>testBGIm.obj : error LNK2019: 無法解析的外部符號 "extern "C" void __cdecl lineto(int,int)" (?lineto@@$$J0YAXHH@Z) 在函式 "int __cdecl main(void)" (?main@@$$HYAHXZ) 中被參考
+     1>testBGIm.obj : error LNK2019: 無法解析的外部符號 "extern "C" void __cdecl moveto(int,int)" (?moveto@@$$J0YAXHH@Z) 在函式 "int __cdecl main(void)" (?main@@$$HYAHXZ) 中被參考
+     1>testBGIm.obj : error LNK2019: 無法解析的外部符號 "extern "C" void __cdecl circle(int,int,int)" (?circle@@$$J0YAXHHH@Z) 在函式 "int __cdecl main(void)" (?main@@$$HYAHXZ) 中被參考
+     1>testBGIm.obj : error LNK2019: 無法解析的外部符號 "extern "C" int __cdecl initwindow(int,int,char const *,int,int,bool,bool)" (?initwindow@@$$J0YAHHHPBDHH_N1@Z) 在函式 "int __cdecl main(void)" (?main@@$$HYAHXZ) 中被參考
+     1>D:\OS hw\test program\test\Debug\test.exe : fatal error LNK1120: 12 個無法解析的外部符號
+     1>專案 "D:\OS hw\test program\test\test\test.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:10.93

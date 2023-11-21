@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1509507850 source:d:\os hw\hw2.1\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<math.h>
+
